@@ -15,6 +15,8 @@ const api_key = "594ccaf6b4106bbbb1c5fe3d6cf2cdb8-acb0b40c-0968acfd";
 
 //Cree a compte utilisateur
 router.post("/sign_up", async (req, res) => {
+  res.json("API");
+
   try {
     // console.log(req.body.password);
     const password = req.body.password;
